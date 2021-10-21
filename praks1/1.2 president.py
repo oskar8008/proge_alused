@@ -1,8 +1,9 @@
 #def muutujad ja omistan väärtused
-aasta = 2016
-president = "Kersti Kaljulaid"
-lause = ". aastal valiti Eesti president"
+aasta = input("sisesta aasta väärtus: ")
+president = input("sisesta presidendi nimi: ")
+lausekesk = ". aastal valiti Eesti president "
 
 #muutuhate kasutamine
-Lause = str(aasta) + lause + president
+lause = aasta + lausekesk + president
 print(lause)
+
