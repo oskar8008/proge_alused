@@ -8,6 +8,6 @@ for rida in fail:
     loend. append(rida)
 lauluvalimine = int(input("valige laulu number: "))
 lauluvalimine -= 1
-print("pr2egu m2ngib " + loend[lauluvalimine])
+print("präegu mängib " + loend[lauluvalimine])
 fail.close()
 
