@@ -1,7 +1,7 @@
 fail = open("rebased.txt", encoding="UTF-8")
 aasta = int(input("Mis aasta andmeid vajate: "))
 aasta1 = 2011
-if aasta >= 2020:
+if aasta >= 2020 or aasta <= 2010:
     print(aasta, "aasta kohta ei ole veel andmeid")
     
 for rida in fail:
