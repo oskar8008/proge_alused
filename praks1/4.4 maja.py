@@ -1,0 +1,15 @@
+from tkinter import *
+ 
+raam = Tk()
+raam.title("maja")
+tahvel = Canvas(raam, width=1000, height = 1000)
+tahvel.create_rectangle(0, 0, 1000, 1000, fill="lightblue")
+tahvel.create_rectangle(0, 800, 1000, 1000, fill="lightgreen")
+tahvel.create_rectangle(300, 580, 700, 799, fill="#f4c2c2")
+tahvel.create_polygon(300,580,500,500,700,580, fill="#808080", outline="black")
+tahvel.create_rectangle(400, 670, 460, 799, fill="#8B4513")
+tahvel.create_rectangle(490, 670, 650, 725, fill="lightblue")
+tahvel.create_rectangle(490, 690, 650, 700, fill="#8B4513")
+tahvel.create_rectangle(560, 670, 580, 725, fill="#8B4513")
+tahvel.pack()
+raam.mainloop()
