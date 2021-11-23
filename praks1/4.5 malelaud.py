@@ -25,8 +25,7 @@ while y2 <= 800:
        i = 0
     if j == 1 or j == 3 or j == 5 or j == 7:
        i = 1
-    j += 1
-    
+    j += 1    
 tahvel.pack()
 raam.mainloop()
 tahvel.pack()
